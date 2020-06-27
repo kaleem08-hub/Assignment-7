@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+        <h1 style="text-align: center; color: white; font-size: 50px;">Calculator</h1>
+    <div class="main" >
+        <div>
+            <input id="calculate" class="calculate" type="text" placeholder="Calculate">
+            <input id="result" class="result" type="text" placeholder="Result">
+        </div>
+        <div>
+            <button class="btn" onclick="getlogarithm()">log</button>
+            <button class="btn" onclick="getpower()">x <sup>y</sup></button>
+            <button class="backbtn"onclick="back()"> <img src="https://img.icons8.com/fluent/48/000000/back.png" width="13px"/> </button>
+            <button class="clearbtn" onclick="clearResult()">C</button>
+            <button class="btn" onclick="getNumber('/')">÷</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn"onclick="getNumber('9')">9</button>
+            <button class="btn"onclick="percentage()">%</button>
+            <button class="btn" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btn" onclick="squareRoot()">&#8730</button>
+            <button class="btn" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btn" onclick="getpi()">π</button>
+            <button class="btn" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('00')">00</button>
+            <button class="btn" onclick="getNumber('0')">0</button>
+            <button class="btn" onclick="getNumber('.')">.</button>
+            <button class="btn"onclick="getexponent()">e <sup>x</sup></button>
+            <button class="equalbtn" onclick="getResult()">=</button>
+            
+        </div>
+    </div>
+    <h3> <i style="color: deepskyblue;" class="fa fa-sticky-note"></i> Instructions for using the online calculator</h3>
+<h5>Keys function</h5>
+
+<p style="font-size:small;">
+<i style="color: deepskyblue;" class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ 0 ], [ 1 ], [ 2 ], ... [ 9 ] - standard number keys.</span>
+<br>
+<i style="color: deepskyblue;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ 00 ] - key input 2 zeros.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ + ]addition, [ - ]subtraction, [ х ]multiplication, [ ÷ ]division.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ % ] - calculates percentages.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ √ ] - calculate the square root.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ C ] -  clear all input to the calculator.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;"> &nbsp; <img src="https://img.icons8.com/fluent/48/000000/back.png" width="13px">&nbsp; &nbsp;- a way to erase or clear an entry.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ log ] - It allows you to calculate natural logarithm of any number.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ π ] - displays the value of pi (the ratio of the circumference of a circle to its diameter).</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ x<sup>y</sup> ] - calculation of X to the power of Y.</span>
+<br>
+<i style="color: deepskyblue ;"class="fa fa-check-circle" aria-hidden="true"></i> <span style="color: white;">[ e<sup>x</sup> ] - returns the value of e <sup>x</sup> , where e is euler's number (approximately 2.7183) and x is the number passed to it.</span>
+<br>
+</p>
+
+<div class="footer">
+<p> By:
+<br>
+Kaleemullah
+<br>
+WM-4712
+</p>    
+</div>
+</body>
+<script src="app.js"></script>
+</html>

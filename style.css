@@ -1,0 +1,130 @@
+.main{
+    border: 3px double dodgerblue;
+    width: 252px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+}
+html{
+    height: 100%;
+    background: url(pexels-photo-2903063.jpeg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.9;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+
+.result{
+    width: 98%; 
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.calculate{
+    width: 98%; 
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 18px;
+    opacity: 1;
+
+}
+.result:hover{
+    color: white;
+    background-color: deepskyblue;
+}
+.calculate:hover{
+    color: white;
+    background-color: deepskyblue;
+}
+
+.clearbtn{
+    width:45px;
+    margin: 1px;
+    background-color: #E74C3C ;
+    color:black;
+    border: none;
+    outline:none;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px  #EC7A6B ;
+}
+.clearbtn:hover{
+    background-color: #EC7A6B;
+    color: #fff ;
+    cursor: pointer;
+}
+
+.backbtn {
+    width:45px;
+    margin: 1px;
+    background-color:#F2F3F4;
+    border: none;
+    outline:none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px dodgerblue ;
+}
+
+.backbtn:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.btn{
+    width:45px;
+    margin: 1px;
+    background-color:#F2F3F4;
+    color:black;
+    border: none;
+    outline: none;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px dodgerblue ;
+}
+.btn:hover{
+    background-color: deepskyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.equalbtn{
+    width:45px;
+    margin: 1px;
+    background-color:deepskyblue;
+    color:black;
+    border: none;
+    outline:none;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px dodgerblue ;
+}
+.equalbtn:hover{
+    background-color: deepskyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer{
+    color: white;
+    text-align: right;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 601px) {
+}
